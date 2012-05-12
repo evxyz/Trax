@@ -1,4 +1,6 @@
 Trax::Application.routes.draw do
+  resources :tracks
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
